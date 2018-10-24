@@ -55,6 +55,7 @@ deploy:
       secure: v4KEXZZXWTD9dF5PKtoOSW00ujUkOR3MvCLCzDV87Ro2NsnUVPPIXfXw9JGXcfsD
     draft: false
     prerelease: false
+    tag: $(APPVEYOR_REPO_TAG_NAME)
     on:
       appveyor_repo_tag: true
 

@@ -45,6 +45,7 @@ deploy:
   api_key:
     secure: vzDC4A3BtVkblWvKzmmslHMGVpGOiP0OJIYJytia0rPV5gxjOsHCcBkogosgSyyp40v9Lk0iFMH3BFLxrEgleudfRdgTaOExdC0FNmf9FtEPjLW3nLkcKzvK4L9+XO3/OIUSU0Aw3d7dakboi04nXavMwHfywQGM4+isKwuQMoh38zGrJfhGuwtENmLzn6E550HzFFJFWmqlsBmZlFt50Jxsm/pG8HsQ2IYd4/ILTq7TsgcGiifiXaMwMucbLKxNAKOh6g+9DqlRyyg7d6ptWR2PcVe4PAaVmH7UhElEON81BkqfODWgxZjSYx6FQgnlGeq3RXrKXhuagaqCdhgJiJR004dwTaBQzjDqYCdMEoUQcoOF5dvkNFWcIk2qk6OlWrCJqiC5l6nbHk+SeuBLuDvXv/2hl2N3QCaNs8C3tCCUps/sAQUF4r9cChFSFkcqzlKAzTQJ2TPHEmOtN/36JKoo1w3ZJrtCUX7TfgftBGjn4g4sLYMCww7/8duRKtm0VbYiRSQ9hcJ2ufXfosSMkPkQXLNFab/QYt6Fp6RKzVAlMf5Fk7twLMHLv/EW5yAh6EB+kOTfDgP9QbZBfO1LcEsV5TtqhdgeHr4pB7BrFHxoSvvthnQ90Pzc5EJUZOpwPTYdemQer4pMjeL9+8KK8Nv/prJ4B+VWx4inqamMOUc=
   file: build/stage/yunik1004/libxmljs/releases/download/**/*.tar.gz
+  file_glob: true
+  skip_cleanup: true
   on:
-    repo: yunik1004/libxmljs
-    branch: build
+    tags: true
