@@ -1,7 +1,7 @@
 # Libxmljs
-[![Build Status](https://secure.travis-ci.org/yunik1004/libxmljs.svg?branch=master)](http://travis-ci.org/yunik1004/libxmljs)
+[![Build Status](https://secure.travis-ci.org/yunik1004/libxmljs.svg?branch=build)](http://travis-ci.org/yunik1004/libxmljs)
 
-[![AppVeyor Build status](https://ci.appveyor.com/api/projects/status/o443aft3q0ttqx4v/branch/master?svg=true)](https://ci.appveyor.com/project/yunik1004/libxmljs/branch/master)
+[![AppVeyor Build status](https://ci.appveyor.com/api/projects/status/o443aft3q0ttqx4v/branch/build?svg=true)](https://ci.appveyor.com/project/yunik1004/libxmljs/branch/build)
 
 LibXML bindings for [node.js](http://nodejs.org/)
 
