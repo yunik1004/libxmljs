@@ -3,12 +3,12 @@ environment:
 #  github_release_token:
 #    secure: en/UnoFHA3RsSAHM5c6zb3RAMa4V01lC3pYG1YrHSeOPFu78SUA/0lOjNe3pp8RG
   matrix:
-    - nodejs_version: 4
-      npm_version: 4.0.3
-    - nodejs_version: 5
-      npm_version: 4.0.3
-    - nodejs_version: 6
-    - nodejs_version: 7
+#    - nodejs_version: 4
+#      npm_version: 4.0.3
+#    - nodejs_version: 5
+#      npm_version: 4.0.3
+#    - nodejs_version: 6
+#    - nodejs_version: 7
     - nodejs_version: 8
     - nodejs_version: 9
     - nodejs_version: 10
@@ -19,9 +19,9 @@ platform:
 
 image: Visual Studio 2015
 
-artifacts:
-  - path: build\**\*.tar.gz
-    name: libxml_binary
+#artifacts:
+#  - path: build\**\*.tar.gz
+#    name: libxml_binary
 
 install:
   - ps: Install-Product node $env:nodejs_version $env:platform
