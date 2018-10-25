@@ -3,6 +3,50 @@
 
 [![AppVeyor Build status](https://ci.appveyor.com/api/projects/status/o443aft3q0ttqx4v/branch/build?svg=true)](https://ci.appveyor.com/project/yunik1004/libxmljs/branch/build)
 
+> This is an updated version of znerol/libxmljs.
+
+Main branches of this project is 'master' and 'build'.
+
+To build this project, you have to run following commands:
+
+```bash
+$ git remote update
+$ git remote add upstream https://github.com/libxmljs/libxmljs.git
+$ git fetch upstream
+$ git checkout -t origin/build
+$ git merge upstream/master
+```
+
+After resolving conflict issues, you have to change the version number in package.json into the same value with upstream.
+
+Next, run the following commands to push & build binary. Tag should be equal to v + version
+
+```bash
+$ git add .
+$ git commit -m ""
+$ git tag v0.19.5
+$ git push origin build --tags
+```
+
+Finally, run the following commands to update the master branch.
+
+```bash
+$ git checkout master
+$ git merge origin/build
+```
+
+After merging & resolving conflict issues, you have to change the binary remote_path in package.json file from libxmljs/libxmljs to yunik1004/libxmljs.
+
+Then, run the following commands to push.
+
+```bash
+$ git add .
+$ git commit -m ""
+$ git push origin master
+```
+
+## Intro
+
 LibXML bindings for [node.js](http://nodejs.org/)
 
 ```javascript

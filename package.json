@@ -2,7 +2,9 @@
   "name": "libxmljs",
   "author": "Marco Rogers",
   "contributors": [
-    "Jeff Smick"
+    "Jeff Smick",
+    "znerol",
+    "yunik1004"
   ],
   "binary": {
     "module_name": "xmljs",
@@ -19,10 +21,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/libxmljs/libxmljs.git"
+    "url": "http://github.com/yunik1004/libxmljs.git"
   },
   "bugs": {
-    "url": "http://github.com/libxmljs/libxmljs/issues"
+    "url": "http://github.com/yunik1004/libxmljs/issues"
   },
   "main": "./index",
   "license": "MIT",
