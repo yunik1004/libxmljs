@@ -3,9 +3,9 @@
 
 [![AppVeyor Build status](https://ci.appveyor.com/api/projects/status/o443aft3q0ttqx4v/branch/build?svg=true)](https://ci.appveyor.com/project/yunik1004/libxmljs/branch/build)
 
-> This is an updated version of znerol/libxmljs.
+> This is the updated version of znerol/libxmljs.
 
-Main branches of this project is 'master' and 'build'.
+Main branches of this project are 'master' and 'build'.
 
 To build this project, you have to run following commands:
 
